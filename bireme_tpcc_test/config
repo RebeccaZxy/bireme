@@ -1,0 +1,10 @@
+500 warehouse (50G)
+
+mysql	8core16G * 3 nodes 100G/node
+host	4core2G
+kafka   4core4G * 3 nodes 100G/node
+subscription	4core4G
+synchronize		4core8G
+hashdata		4core4G * 17nodes (1 master + 16 slave) 10G/node
+
+tpcc_start		-w 500 -c 32
